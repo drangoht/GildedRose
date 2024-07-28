@@ -1,5 +1,5 @@
-﻿using System.Collections.Generic;
-
+﻿using System;
+using System.Collections.Generic;
 namespace GildedRose.Console
 {
     class Program
@@ -27,9 +27,9 @@ namespace GildedRose.Console
                                           }
 
             };
-
+            app.DisplayItems();
             app.UpdateQuality();
-
+            app.DisplayItems();
             System.Console.ReadKey();
 
         }
@@ -109,7 +109,13 @@ namespace GildedRose.Console
                 }
             }
         }
-
+        public void DisplayItems()
+        {
+            foreach (var item in Items)
+            {
+                System.Console.WriteLine($"{item.Name} {item.SellIn} {item.Quality}");
+            }
+        }
     }
 
     public class Item
