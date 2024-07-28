@@ -33,7 +33,12 @@ namespace GildedRose.Console
             System.Console.ReadKey();
 
         }
-
+        public IList<Item> UpddateQuality(IList<Item> items)
+        {
+            Items = items;
+            UpdateQuality();
+            return Items;
+        }
         public void UpdateQuality()
         {
             for (var i = 0; i < Items.Count; i++)
