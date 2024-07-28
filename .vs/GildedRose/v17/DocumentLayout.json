@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|solutionrelative:src\\gildedrose.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD4715A2-532E-4C74-BC40-36EE64F61FCA}|src\\GildedRose.Tests\\GildedRose.Tests.csproj|d:\\code\\csharp\\katas\\ddd\\gildedrose\\src\\gildedrose.tests\\testassemblytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CD4715A2-532E-4C74-BC40-36EE64F61FCA}|src\\GildedRose.Tests\\GildedRose.Tests.csproj|D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\src\\gildedrose.tests\\testassemblytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD4715A2-532E-4C74-BC40-36EE64F61FCA}|src\\GildedRose.Tests\\GildedRose.Tests.csproj|solutionrelative:src\\gildedrose.tests\\testassemblytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,9 +30,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\src\\GildedRose.Console\\Program.cs",
               "RelativeDocumentMoniker": "src\\GildedRose.Console\\Program.cs",
-              "ToolTip": "D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\src\\GildedRose.Console\\Program.cs",
-              "RelativeToolTip": "src\\GildedRose.Console\\Program.cs",
-              "ViewState": "AQIAAHgAAAAAAAAAAAAowAcAAAAnAAAA",
+              "ToolTip": "D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\src\\GildedRose.Console\\Program.cs*",
+              "RelativeToolTip": "src\\GildedRose.Console\\Program.cs*",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAcwHMAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-27T12:26:11.174Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "src\\GildedRose.Tests\\TestAssemblyTests.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T12:26:02.984Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-27T12:26:02.984Z"
             }
           ]
         }
