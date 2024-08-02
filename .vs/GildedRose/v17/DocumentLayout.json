@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CD4715A2-532E-4C74-BC40-36EE64F61FCA}|src\\GildedRose.Tests\\GildedRose.Tests.csproj|d:\\code\\csharp\\katas\\ddd\\gildedrose\\src\\gildedrose.tests\\gildedroseacceptancetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4715A2-532E-4C74-BC40-36EE64F61FCA}|src\\GildedRose.Tests\\GildedRose.Tests.csproj|solutionrelative:src\\gildedrose.tests\\gildedroseacceptancetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CD4715A2-532E-4C74-BC40-36EE64F61FCA}|src\\GildedRose.Tests\\GildedRose.Tests.csproj|D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\src\\gildedrose.tests\\testassemblytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD4715A2-532E-4C74-BC40-36EE64F61FCA}|src\\GildedRose.Tests\\GildedRose.Tests.csproj|solutionrelative:src\\gildedrose.tests\\testassemblytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,20 +30,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "GildedRoseAcceptanceTests.cs",
+              "DocumentMoniker": "D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\src\\GildedRose.Tests\\GildedRoseAcceptanceTests.cs",
+              "RelativeDocumentMoniker": "src\\GildedRose.Tests\\GildedRoseAcceptanceTests.cs",
+              "ToolTip": "D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\src\\GildedRose.Tests\\GildedRoseAcceptanceTests.cs*",
+              "RelativeToolTip": "src\\GildedRose.Tests\\GildedRoseAcceptanceTests.cs*",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAUwG0AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T06:43:15.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\src\\GildedRose.Console\\Program.cs",
               "RelativeDocumentMoniker": "src\\GildedRose.Console\\Program.cs",
               "ToolTip": "D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\src\\GildedRose.Console\\Program.cs",
               "RelativeToolTip": "src\\GildedRose.Console\\Program.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAQwCYAAAAcAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAADgvxIAAABaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-27T12:26:11.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TestAssemblyTests.cs",
               "DocumentMoniker": "D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\src\\GildedRose.Tests\\TestAssemblyTests.cs",
               "RelativeDocumentMoniker": "src\\GildedRose.Tests\\TestAssemblyTests.cs",
