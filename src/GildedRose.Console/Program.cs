@@ -27,18 +27,12 @@ namespace GildedRose.Console
                                           }
 
             };
-            app.DisplayItems();
             app.UpdateQuality();
-            app.DisplayItems();
+
             System.Console.ReadKey();
 
         }
-        public IList<Item> UpddateQuality(IList<Item> items)
-        {
-            Items = items;
-            UpdateQuality();
-            return Items;
-        }
+
         public Item UpddateQuality(Item item)
         {
             Items = new List<Item>() { item };
@@ -118,13 +112,6 @@ namespace GildedRose.Console
                         }
                     }
                 }
-            }
-        }
-        public void DisplayItems()
-        {
-            foreach (var item in Items)
-            {
-                System.Console.WriteLine($"{item.Name} {item.SellIn} {item.Quality}");
             }
         }
     }

@@ -67,7 +67,24 @@ namespace GildedRose.Tests
             {
                 Name = "Aged Brie",
                 Quality = 0,
-                SellIn = 5
+                SellIn = 10
+            };
+
+            var app = new Program();
+            var itemUpdated = app.UpddateQuality(item);
+
+            Check.That(itemUpdated.Quality).IsEqualTo(1);
+        }
+
+        [Fact]
+        // "Aged Brie" actually increases in Quality the older it gets when SellIn=0 (bug found !)
+        public void UpdateQualityShouldIncreaseQualityWhenSellInDecreaseAndItemNameIsAgedBrieAndSellInEqualToZero()
+        {
+            Item item = new Item()
+            {
+                Name = "Aged Brie",
+                Quality = 0,
+                SellIn = 0
             };
 
             var app = new Program();
