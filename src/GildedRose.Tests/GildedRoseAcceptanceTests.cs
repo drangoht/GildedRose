@@ -29,7 +29,7 @@ namespace GildedRose.Tests
 
         [Fact]
         // Once the sell by date has passed, Quality degrades twice as fast
-        public void UpdateQualityShouldDecreaseQualityTwiceWhenSellInEqualZero()
+        public void UpdateQualityShouldDecreaseQualityTwiceWhenSellInEqualTo0()
         {
             Item item = new Item()
             {
@@ -45,7 +45,7 @@ namespace GildedRose.Tests
         }
         [Fact]
         // The Quality of an item is never negative
-        public void UpdateQualityShouldKeepQualityToZeroWhenQualityEqualToZero()
+        public void UpdateQualityShouldKeepQualityTo0WhenQualityEqualTo0()
         {
             Item item = new Item()
             {
@@ -93,13 +93,13 @@ namespace GildedRose.Tests
         }
         
         
-                    [Fact]
+        [Fact]
         // "Sulfuras", being a legendary item, never has to be sold or decreases in Quality
         public void UpdateQualityShouldChangeQualityOrSellInWhenItemNameIsSulfuras()
         {
             Item item = new Item()
             {
-                Name = "Sulfuras",
+                Name = "Sulfuras, Hand of Ragnaros",
                 Quality = 80,
                 SellIn = 0
             };
@@ -109,5 +109,82 @@ namespace GildedRose.Tests
 
             Check.That(itemUpdated.Quality).IsEqualTo(80);
         }
+
+        [Fact]
+        // "Backstage passes", like aged brie, increases in Quality as it's SellIn 
+        // value approaches;
+        public void UpdateQualityShouldIncreaseQualityWhenSellInDecreaseAndItemNameIsBackstagePasses()
+        {
+            Item item = new Item()
+            {
+                Name = "Backstage passes to a TAFKAL80ETC concert",
+                Quality = 0,
+                SellIn = 12
+            };
+
+            var app = new Program();
+            var itemUpdated = app.UpddateQuality(item);
+
+            Check.That(itemUpdated.Quality).IsEqualTo(1);
+        }
+        [Fact]
+        // "Backstage passes", like aged brie, increases in Quality as it's SellIn 
+        // value approaches;
+        // Quality increases by 2 when there are 10 days or less
+        public void UpdateQualityShouldIncreaseQualityBy2WhenSellInLesserOrEqualTo10AndItemNameIsBackstagePasses()
+        {
+            Item item = new Item()
+            {
+                Name = "Backstage passes to a TAFKAL80ETC concert",
+                Quality = 0,
+                SellIn = 10
+            };
+
+            var app = new Program();
+            var itemUpdated = app.UpddateQuality(item);
+
+            Check.That(itemUpdated.Quality).IsEqualTo(2);
+        }
+        [Fact]
+        // "Backstage passes", like aged brie, increases in Quality as it's SellIn 
+        // value approaches;
+        // Quality increases by 2 when there are 10 days or less
+        // and by 3 when there are 5 days
+        public void UpdateQualityShouldIncreaseQualityBy3WhenSellInLesserrOrEqualTo5AndItemNameIsBackstagePasses()
+        {
+            Item item = new Item()
+            {
+                Name = "Backstage passes to a TAFKAL80ETC concert",
+                Quality = 0,
+                SellIn = 5
+            };
+
+            var app = new Program();
+            var itemUpdated = app.UpddateQuality(item);
+
+            Check.That(itemUpdated.Quality).IsEqualTo(3);
+        }
+        [Fact]
+        // "Backstage passes", like aged brie, increases in Quality as it's SellIn 
+        // value approaches;
+        // Quality increases by 2 when there are 10 days or less
+        // and by 3 when there are 5 days or less but Quality drops to 0 after the
+        // concert
+        public void UpdateQualityShouldDropQualityTo0WhenSellInEqualTo0AndItemNameIsBackstagePasses()
+        {
+            Item item = new Item()
+            {
+                Name = "Backstage passes to a TAFKAL80ETC concert",
+                Quality = 0,
+                SellIn = 0
+            };
+
+            var app = new Program();
+            var itemUpdated = app.UpddateQuality(item);
+
+            Check.That(itemUpdated.Quality).IsEqualTo(0);
+        }
+        
+        
     }
 }
