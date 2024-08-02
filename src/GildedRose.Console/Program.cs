@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 namespace GildedRose.Console
 {
-    class Program
+    public class Program
     {
         IList<Item> Items;
         static void Main(string[] args)
@@ -27,13 +27,18 @@ namespace GildedRose.Console
                                           }
 
             };
-            app.DisplayItems();
             app.UpdateQuality();
-            app.DisplayItems();
+
             System.Console.ReadKey();
 
         }
 
+        public Item UpddateQuality(Item item)
+        {
+            Items = new List<Item>() { item };
+            UpdateQuality();
+            return Items[0];
+        }
         public void UpdateQuality()
         {
             for (var i = 0; i < Items.Count; i++)
@@ -107,13 +112,6 @@ namespace GildedRose.Console
                         }
                     }
                 }
-            }
-        }
-        public void DisplayItems()
-        {
-            foreach (var item in Items)
-            {
-                System.Console.WriteLine($"{item.Name} {item.SellIn} {item.Quality}");
             }
         }
     }
