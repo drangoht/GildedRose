@@ -45,8 +45,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TypedItems\AgedBrieItem.cs" />
+    <Compile Include="TypedItems\BackstagePassesItem.cs" />
+    <Compile Include="TypedItems\ConjuredItem.cs" />
+    <Compile Include="TypedItems\DefaultItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TypedItems\SulfurasItem.cs" />
+    <Compile Include="TypedItems\TypedItem.cs" />
+    <Compile Include="TypedItems\TypedItemFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

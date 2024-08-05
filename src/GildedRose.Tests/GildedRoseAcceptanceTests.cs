@@ -201,7 +201,23 @@ namespace GildedRose.Tests
 
             Check.That(itemUpdated.Quality).IsEqualTo(0);
         }
-        
-        
+
+        [Fact]
+        // "Conjured" items degrade in Quality twice as fast as normal items
+        public void UpdateQualityShouldDecreaseQualityTwiceWhenItemNameIsConjured()
+        {
+            Item item = new Item()
+            {
+                Name = "Conjured",
+                Quality = 10,
+                SellIn = 5
+            };
+
+            var app = new Program();
+            var itemUpdated = app.UpddateQuality(item);
+
+            Check.That(itemUpdated.Quality).IsEqualTo(8);
+        }
+
     }
 }
