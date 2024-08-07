@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace GildedRose.Console.TypedItems
+﻿namespace GildedRose.Console.TypedItems
 {
     internal class SulfurasItem : TypedItem
     {
@@ -15,7 +9,7 @@ namespace GildedRose.Console.TypedItems
         public Item OriginalItem { get; set; }
         public override void UpdateQuality()
         {
-            return;
+            // Nothing to do here, Sulfuras is unupdatable
         }
     }
 }

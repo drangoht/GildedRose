@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace GildedRose.Console.TypedItems
+﻿namespace GildedRose.Console.TypedItems
 {
     public class BackstagePassesItem : TypedItem
     {
@@ -13,7 +6,7 @@ namespace GildedRose.Console.TypedItems
         {
             OriginalItem = item;
         }
-        public Item OriginalItem  { get; set; }
+        public Item OriginalItem { get; set; }
 
         public override void UpdateQuality()
         {

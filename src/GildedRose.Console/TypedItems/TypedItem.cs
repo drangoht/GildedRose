@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace GildedRose.Console.TypedItems
+﻿namespace GildedRose.Console.TypedItems
 {
     public abstract class TypedItem
     {
@@ -19,7 +13,7 @@ namespace GildedRose.Console.TypedItems
             if (OriginalItem.Quality < 0)
                 OriginalItem.Quality = 0;
 
-            if (OriginalItem.Quality >50)
+            if (OriginalItem.Quality > 50)
                 OriginalItem.Quality = 50;
         }
     }
