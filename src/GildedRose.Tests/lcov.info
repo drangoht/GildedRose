@@ -1,0 +1,257 @@
+SF:D:\CODE\CSHARP\Katas\DDD\GildedRose\src\GildedRose.Console\Program.cs
+FN:9,System.Void GildedRose.Console.Program::Main(System.String[])
+FNDA:0,System.Void GildedRose.Console.Program::Main(System.String[])
+DA:10,0
+DA:11,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:33,0
+DA:35,0
+FN:37,GildedRose.Console.Item GildedRose.Console.Program::UpddateQuality(GildedRose.Console.Item)
+FNDA:12,GildedRose.Console.Item GildedRose.Console.Program::UpddateQuality(GildedRose.Console.Item)
+DA:38,12
+DA:39,12
+DA:40,12
+DA:41,12
+DA:42,12
+FN:43,System.Void GildedRose.Console.Program::UpdateQuality()
+FNDA:12,System.Void GildedRose.Console.Program::UpdateQuality()
+DA:44,12
+DA:45,60
+DA:46,12
+DA:47,12
+DA:48,12
+DA:49,12
+BRDA:45,43,1,12
+BRDA:45,43,0,12
+FN:53,System.String GildedRose.Console.Item::get_Name()
+FNDA:24,System.String GildedRose.Console.Item::get_Name()
+DA:54,24
+FN:55,System.Int32 GildedRose.Console.Item::get_SellIn()
+FNDA:44,System.Int32 GildedRose.Console.Item::get_SellIn()
+DA:56,44
+FN:57,System.Int32 GildedRose.Console.Item::get_Quality()
+FNDA:69,System.Int32 GildedRose.Console.Item::get_Quality()
+DA:58,69
+LF:37
+LH:14
+BRF:2
+BRH:2
+FNF:6
+FNH:5
+end_of_record
+SF:D:\CODE\CSHARP\Katas\DDD\GildedRose\src\GildedRose.Console\TypedItems\AgedBrieItem.cs
+FN:9,GildedRose.Console.Item GildedRose.Console.TypedItems.AgedBrieItem::get_OriginalItem()
+FNDA:9,GildedRose.Console.Item GildedRose.Console.TypedItems.AgedBrieItem::get_OriginalItem()
+DA:10,9
+FN:12,System.Void GildedRose.Console.TypedItems.AgedBrieItem::UpdateQuality()
+FNDA:3,System.Void GildedRose.Console.TypedItems.AgedBrieItem::UpdateQuality()
+DA:13,3
+DA:14,3
+DA:15,3
+DA:16,3
+DA:17,3
+FN:4,System.Void GildedRose.Console.TypedItems.AgedBrieItem::.ctor(GildedRose.Console.Item)
+FNDA:3,System.Void GildedRose.Console.TypedItems.AgedBrieItem::.ctor(GildedRose.Console.Item)
+DA:5,3
+DA:6,3
+DA:7,3
+DA:8,3
+LF:10
+LH:10
+BRF:0
+BRH:0
+FNF:3
+FNH:3
+end_of_record
+SF:D:\CODE\CSHARP\Katas\DDD\GildedRose\src\GildedRose.Console\TypedItems\BackstagePassesItem.cs
+FN:8,GildedRose.Console.Item GildedRose.Console.TypedItems.BackstagePassesItem::get_OriginalItem()
+FNDA:20,GildedRose.Console.Item GildedRose.Console.TypedItems.BackstagePassesItem::get_OriginalItem()
+DA:9,20
+FN:11,System.Void GildedRose.Console.TypedItems.BackstagePassesItem::UpdateQuality()
+FNDA:4,System.Void GildedRose.Console.TypedItems.BackstagePassesItem::UpdateQuality()
+DA:12,4
+DA:13,4
+DA:14,1
+DA:15,1
+DA:16,1
+DA:18,3
+DA:19,1
+DA:20,1
+DA:21,1
+DA:22,1
+DA:23,1
+DA:25,2
+DA:26,1
+DA:27,1
+DA:28,1
+DA:29,1
+DA:30,1
+DA:32,1
+DA:33,1
+DA:34,1
+DA:35,4
+BRDA:13,20,0,1
+BRDA:13,20,1,3
+BRDA:18,57,0,1
+BRDA:18,57,1,2
+BRDA:25,128,0,1
+BRDA:25,128,1,1
+FN:4,System.Void GildedRose.Console.TypedItems.BackstagePassesItem::.ctor(GildedRose.Console.Item)
+FNDA:4,System.Void GildedRose.Console.TypedItems.BackstagePassesItem::.ctor(GildedRose.Console.Item)
+DA:5,4
+DA:6,4
+DA:7,4
+DA:8,4
+LF:26
+LH:26
+BRF:6
+BRH:6
+FNF:3
+FNH:3
+end_of_record
+SF:D:\CODE\CSHARP\Katas\DDD\GildedRose\src\GildedRose.Console\TypedItems\ConjuredItem.cs
+FN:8,GildedRose.Console.Item GildedRose.Console.TypedItems.ConjuredItem::get_OriginalItem()
+FNDA:3,GildedRose.Console.Item GildedRose.Console.TypedItems.ConjuredItem::get_OriginalItem()
+DA:9,3
+FN:11,System.Void GildedRose.Console.TypedItems.ConjuredItem::UpdateQuality()
+FNDA:1,System.Void GildedRose.Console.TypedItems.ConjuredItem::UpdateQuality()
+DA:12,1
+DA:13,1
+DA:14,1
+DA:15,1
+DA:16,1
+FN:4,System.Void GildedRose.Console.TypedItems.ConjuredItem::.ctor(GildedRose.Console.Item)
+FNDA:1,System.Void GildedRose.Console.TypedItems.ConjuredItem::.ctor(GildedRose.Console.Item)
+DA:5,1
+DA:6,1
+DA:7,1
+DA:8,1
+LF:10
+LH:10
+BRF:0
+BRH:0
+FNF:3
+FNH:3
+end_of_record
+SF:D:\CODE\CSHARP\Katas\DDD\GildedRose\src\GildedRose.Console\TypedItems\DefaultItem.cs
+FN:8,GildedRose.Console.Item GildedRose.Console.TypedItems.DefaultItem::get_OriginalItem()
+FNDA:13,GildedRose.Console.Item GildedRose.Console.TypedItems.DefaultItem::get_OriginalItem()
+DA:9,13
+FN:11,System.Void GildedRose.Console.TypedItems.DefaultItem::UpdateQuality()
+FNDA:3,System.Void GildedRose.Console.TypedItems.DefaultItem::UpdateQuality()
+DA:12,3
+DA:13,3
+DA:14,1
+DA:15,3
+DA:16,3
+DA:17,3
+DA:18,3
+BRDA:13,17,0,1
+BRDA:13,17,1,3
+FN:4,System.Void GildedRose.Console.TypedItems.DefaultItem::.ctor(GildedRose.Console.Item)
+FNDA:3,System.Void GildedRose.Console.TypedItems.DefaultItem::.ctor(GildedRose.Console.Item)
+DA:5,3
+DA:6,3
+DA:7,3
+DA:8,3
+LF:12
+LH:12
+BRF:2
+BRH:2
+FNF:3
+FNH:3
+end_of_record
+SF:D:\CODE\CSHARP\Katas\DDD\GildedRose\src\GildedRose.Console\TypedItems\SulfurasItem.cs
+FN:8,GildedRose.Console.Item GildedRose.Console.TypedItems.SulfurasItem::get_OriginalItem()
+FNDA:1,GildedRose.Console.Item GildedRose.Console.TypedItems.SulfurasItem::get_OriginalItem()
+DA:9,1
+FN:10,System.Void GildedRose.Console.TypedItems.SulfurasItem::UpdateQuality()
+FNDA:1,System.Void GildedRose.Console.TypedItems.SulfurasItem::UpdateQuality()
+DA:11,1
+DA:13,1
+FN:4,System.Void GildedRose.Console.TypedItems.SulfurasItem::.ctor(GildedRose.Console.Item)
+FNDA:1,System.Void GildedRose.Console.TypedItems.SulfurasItem::.ctor(GildedRose.Console.Item)
+DA:5,1
+DA:6,1
+DA:7,1
+DA:8,1
+LF:7
+LH:7
+BRF:0
+BRH:0
+FNF:3
+FNH:3
+end_of_record
+SF:D:\CODE\CSHARP\Katas\DDD\GildedRose\src\GildedRose.Console\TypedItems\TypedItem.cs
+FN:4,GildedRose.Console.Item GildedRose.Console.TypedItems.TypedItem::get_OriginalItem()
+FNDA:34,GildedRose.Console.Item GildedRose.Console.TypedItems.TypedItem::get_OriginalItem()
+DA:5,34
+FN:10,System.Void GildedRose.Console.TypedItems.TypedItem::UpdateQuality()
+FNDA:10,System.Void GildedRose.Console.TypedItems.TypedItem::UpdateQuality()
+DA:11,10
+DA:13,10
+DA:14,1
+DA:16,10
+DA:17,1
+DA:18,10
+BRDA:13,17,0,1
+BRDA:13,17,1,10
+BRDA:16,49,0,1
+BRDA:16,49,1,10
+FN:5,System.Void GildedRose.Console.TypedItems.TypedItem::.ctor(GildedRose.Console.Item)
+FNDA:12,System.Void GildedRose.Console.TypedItems.TypedItem::.ctor(GildedRose.Console.Item)
+DA:6,12
+DA:7,12
+DA:8,12
+DA:9,12
+LF:11
+LH:11
+BRF:4
+BRH:4
+FNF:3
+FNH:3
+end_of_record
+SF:D:\CODE\CSHARP\Katas\DDD\GildedRose\src\GildedRose.Console\TypedItems\TypedItemFactory.cs
+FN:6,GildedRose.Console.TypedItems.TypedItem GildedRose.Console.TypedItems.TypedItemFactory::Create(GildedRose.Console.Item)
+FNDA:12,GildedRose.Console.TypedItems.TypedItem GildedRose.Console.TypedItems.TypedItemFactory::Create(GildedRose.Console.Item)
+DA:7,12
+DA:8,12
+DA:11,1
+DA:13,3
+DA:15,4
+DA:17,1
+DA:19,3
+DA:21,12
+BRDA:8,21,0,11
+BRDA:8,34,0,8
+BRDA:8,47,0,4
+BRDA:8,21,1,1
+BRDA:8,34,1,3
+BRDA:8,47,1,4
+BRDA:8,60,1,1
+BRDA:8,60,0,3
+LF:8
+LH:8
+BRF:8
+BRH:8
+FNF:1
+FNH:1
+end_of_record
