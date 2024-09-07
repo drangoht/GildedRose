@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 namespace GildedRose.Console
 {
+
     public class Program
     {
         IList<Item> Items;

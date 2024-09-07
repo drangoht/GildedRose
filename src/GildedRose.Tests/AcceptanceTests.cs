@@ -1,13 +1,12 @@
-﻿using Xunit;
-using NFluent;
-using NFluent.Extensions;
+using Xunit;
 using GildedRose.Console;
 using System.Collections.Generic;
 using System.Net.NetworkInformation;
 using System.Security.Policy;
+using Microsoft.VisualStudio.TestPlatform.TestHost;
 namespace GildedRose.Tests
 {
-    public class GildedRoseAcceptanceTests
+    public class AcceptanceTests
     {
         [Fact]
         /// At the end of each day our system lowers both values for every item
@@ -19,12 +18,11 @@ namespace GildedRose.Tests
                 Quality = 2,
                 SellIn = 5
             };
-            
 
-            var app = new Program();
+
+            var app = new Console.Program();
             var itemUpdated = app.UpddateQuality(item);
-
-            Check.That(itemUpdated.Quality).IsEqualTo(1);
+            Assert.Equal(1, itemUpdated.Quality);
         }
 
         [Fact]
@@ -38,10 +36,9 @@ namespace GildedRose.Tests
                 SellIn = 0
             };
 
-            var app = new Program();
+            var app = new Console.Program();
             var itemUpdated = app.UpddateQuality(item);
-
-            Check.That(itemUpdated.Quality).IsEqualTo(0);
+            Assert.Equal(0, itemUpdated.Quality);
         }
         [Fact]
         /// The Quality of an item is never negative
@@ -54,10 +51,9 @@ namespace GildedRose.Tests
                 SellIn = 5
             };
 
-            var app = new Program();
+            var app = new Console.Program();
             var itemUpdated = app.UpddateQuality(item);
-
-            Check.That(itemUpdated.Quality).IsEqualTo(0);
+            Assert.Equal(0, itemUpdated.Quality);
         }
         [Fact]
         /// "Aged Brie" actually increases in Quality the older it gets
@@ -70,10 +66,10 @@ namespace GildedRose.Tests
                 SellIn = 10
             };
 
-            var app = new Program();
+            var app = new Console.Program();
             var itemUpdated = app.UpddateQuality(item);
 
-            Check.That(itemUpdated.Quality).IsEqualTo(1);
+            Assert.Equal(1, itemUpdated.Quality);
         }
 
         [Fact]
@@ -87,10 +83,10 @@ namespace GildedRose.Tests
                 SellIn = 0
             };
 
-            var app = new Program();
+            var app = new Console.Program();
             var itemUpdated = app.UpddateQuality(item);
 
-            Check.That(itemUpdated.Quality).IsEqualTo(1);
+            Assert.Equal(1, itemUpdated.Quality);
         }
         [Fact]
         /// The Quality of an item is never more than 50
@@ -103,13 +99,13 @@ namespace GildedRose.Tests
                 SellIn = 5
             };
 
-            var app = new Program();
+            var app = new Console.Program();
             var itemUpdated = app.UpddateQuality(item);
 
-            Check.That(itemUpdated.Quality).IsEqualTo(50);
+            Assert.Equal(50, itemUpdated.Quality);
         }
-        
-        
+
+
         [Fact]
         /// "Sulfuras", being a legendary item, never has to be sold or decreases in Quality
         public void UpdateQualityShouldChangeQualityOrSellInWhenItemNameIsSulfuras()
@@ -121,10 +117,10 @@ namespace GildedRose.Tests
                 SellIn = 0
             };
 
-            var app = new Program();
+            var app = new Console.Program();
             var itemUpdated = app.UpddateQuality(item);
 
-            Check.That(itemUpdated.Quality).IsEqualTo(80);
+            Assert.Equal(80, itemUpdated.Quality);
         }
 
         [Fact]
@@ -138,10 +134,10 @@ namespace GildedRose.Tests
                 SellIn = 12
             };
 
-            var app = new Program();
+            var app = new Console.Program();
             var itemUpdated = app.UpddateQuality(item);
 
-            Check.That(itemUpdated.Quality).IsEqualTo(1);
+            Assert.Equal(1, itemUpdated.Quality);
         }
         [Fact]
         /// "Backstage passes", like aged brie, increases in Quality as it's SellIn 
@@ -156,10 +152,10 @@ namespace GildedRose.Tests
                 SellIn = 10
             };
 
-            var app = new Program();
+            var app = new Console.Program();
             var itemUpdated = app.UpddateQuality(item);
 
-            Check.That(itemUpdated.Quality).IsEqualTo(2);
+            Assert.Equal(2, itemUpdated.Quality);
         }
         [Fact]
         /// "Backstage passes", like aged brie, increases in Quality as it's SellIn 
@@ -175,10 +171,10 @@ namespace GildedRose.Tests
                 SellIn = 5
             };
 
-            var app = new Program();
+            var app = new Console.Program();
             var itemUpdated = app.UpddateQuality(item);
 
-            Check.That(itemUpdated.Quality).IsEqualTo(3);
+            Assert.Equal(3, itemUpdated.Quality);
         }
         [Fact]
         /// "Backstage passes", like aged brie, increases in Quality as it's SellIn 
@@ -195,10 +191,10 @@ namespace GildedRose.Tests
                 SellIn = 0
             };
 
-            var app = new Program();
+            var app = new Console.Program();
             var itemUpdated = app.UpddateQuality(item);
 
-            Check.That(itemUpdated.Quality).IsEqualTo(0);
+            Assert.Equal(0, itemUpdated.Quality);
         }
 
         [Fact]
@@ -212,10 +208,10 @@ namespace GildedRose.Tests
                 SellIn = 5
             };
 
-            var app = new Program();
+            var app = new Console.Program();
             var itemUpdated = app.UpddateQuality(item);
 
-            Check.That(itemUpdated.Quality).IsEqualTo(8);
+            Assert.Equal(8, itemUpdated.Quality);
         }
 
     }
