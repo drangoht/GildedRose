@@ -1,4 +1,4 @@
-SF:D:\CODE\CSHARP\Katas\DDD\GildedRose\src\GildedRose.Console\Program.cs
+SF:d:\CODE\CSHARP\Katas\DDD\GildedRose\src\GildedRose.Console\Program.cs
 FN:9,System.Void GildedRose.Console.Program::Main(System.String[])
 FNDA:0,System.Void GildedRose.Console.Program::Main(System.String[])
 DA:10,0
@@ -57,7 +57,7 @@ BRH:2
 FNF:6
 FNH:5
 end_of_record
-SF:D:\CODE\CSHARP\Katas\DDD\GildedRose\src\GildedRose.Console\TypedItems\AgedBrieItem.cs
+SF:d:\CODE\CSHARP\Katas\DDD\GildedRose\src\GildedRose.Console\TypedItems\AgedBrieItem.cs
 FN:9,GildedRose.Console.Item GildedRose.Console.TypedItems.AgedBrieItem::get_OriginalItem()
 FNDA:9,GildedRose.Console.Item GildedRose.Console.TypedItems.AgedBrieItem::get_OriginalItem()
 DA:10,9
@@ -81,7 +81,7 @@ BRH:0
 FNF:3
 FNH:3
 end_of_record
-SF:D:\CODE\CSHARP\Katas\DDD\GildedRose\src\GildedRose.Console\TypedItems\BackstagePassesItem.cs
+SF:d:\CODE\CSHARP\Katas\DDD\GildedRose\src\GildedRose.Console\TypedItems\BackstagePassesItem.cs
 FN:8,GildedRose.Console.Item GildedRose.Console.TypedItems.BackstagePassesItem::get_OriginalItem()
 FNDA:20,GildedRose.Console.Item GildedRose.Console.TypedItems.BackstagePassesItem::get_OriginalItem()
 DA:9,20
@@ -127,7 +127,7 @@ BRH:6
 FNF:3
 FNH:3
 end_of_record
-SF:D:\CODE\CSHARP\Katas\DDD\GildedRose\src\GildedRose.Console\TypedItems\ConjuredItem.cs
+SF:d:\CODE\CSHARP\Katas\DDD\GildedRose\src\GildedRose.Console\TypedItems\ConjuredItem.cs
 FN:8,GildedRose.Console.Item GildedRose.Console.TypedItems.ConjuredItem::get_OriginalItem()
 FNDA:3,GildedRose.Console.Item GildedRose.Console.TypedItems.ConjuredItem::get_OriginalItem()
 DA:9,3
@@ -151,7 +151,7 @@ BRH:0
 FNF:3
 FNH:3
 end_of_record
-SF:D:\CODE\CSHARP\Katas\DDD\GildedRose\src\GildedRose.Console\TypedItems\DefaultItem.cs
+SF:d:\CODE\CSHARP\Katas\DDD\GildedRose\src\GildedRose.Console\TypedItems\DefaultItem.cs
 FN:8,GildedRose.Console.Item GildedRose.Console.TypedItems.DefaultItem::get_OriginalItem()
 FNDA:13,GildedRose.Console.Item GildedRose.Console.TypedItems.DefaultItem::get_OriginalItem()
 DA:9,13
@@ -179,7 +179,7 @@ BRH:2
 FNF:3
 FNH:3
 end_of_record
-SF:D:\CODE\CSHARP\Katas\DDD\GildedRose\src\GildedRose.Console\TypedItems\SulfurasItem.cs
+SF:d:\CODE\CSHARP\Katas\DDD\GildedRose\src\GildedRose.Console\TypedItems\SulfurasItem.cs
 FN:8,GildedRose.Console.Item GildedRose.Console.TypedItems.SulfurasItem::get_OriginalItem()
 FNDA:1,GildedRose.Console.Item GildedRose.Console.TypedItems.SulfurasItem::get_OriginalItem()
 DA:9,1
@@ -200,7 +200,7 @@ BRH:0
 FNF:3
 FNH:3
 end_of_record
-SF:D:\CODE\CSHARP\Katas\DDD\GildedRose\src\GildedRose.Console\TypedItems\TypedItem.cs
+SF:d:\CODE\CSHARP\Katas\DDD\GildedRose\src\GildedRose.Console\TypedItems\TypedItem.cs
 FN:4,GildedRose.Console.Item GildedRose.Console.TypedItems.TypedItem::get_OriginalItem()
 FNDA:34,GildedRose.Console.Item GildedRose.Console.TypedItems.TypedItem::get_OriginalItem()
 DA:5,34
@@ -229,7 +229,7 @@ BRH:4
 FNF:3
 FNH:3
 end_of_record
-SF:D:\CODE\CSHARP\Katas\DDD\GildedRose\src\GildedRose.Console\TypedItems\TypedItemFactory.cs
+SF:d:\CODE\CSHARP\Katas\DDD\GildedRose\src\GildedRose.Console\TypedItems\TypedItemFactory.cs
 FN:6,GildedRose.Console.TypedItems.TypedItem GildedRose.Console.TypedItems.TypedItemFactory::Create(GildedRose.Console.Item)
 FNDA:12,GildedRose.Console.TypedItems.TypedItem GildedRose.Console.TypedItems.TypedItemFactory::Create(GildedRose.Console.Item)
 DA:7,12
