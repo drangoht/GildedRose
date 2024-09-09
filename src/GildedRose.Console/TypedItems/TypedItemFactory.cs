@@ -20,13 +20,6 @@ namespace GildedRose.Console.TypedItems
                 Activator.CreateInstance(type, i))
                 .Cast<ITypedItem>()
                 .ToImmutableDictionary(i =>i.Name, i => i);
-            
-            
-            //_items = typedItemType.Assembly.ExportedTypes
-            //    .Where(x => typedItemType.IsAssignableFrom(x) && !x.IsInterface && !x.IsAbstract)
-            //    .Select(x => Activator.CreateInstance(x))
-            //    .Cast<TypedItem>()
-            //    .ToImmutableDictionary(x => x.Name, x => x);
         }
         public ITypedItem Create(Item item)
         {
