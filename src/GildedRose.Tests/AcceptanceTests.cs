@@ -203,7 +203,7 @@ namespace GildedRose.Tests
         {
             Item item = new Item()
             {
-                Name = "Conjured",
+                Name = "Conjured Mana Cake",
                 Quality = 10,
                 SellIn = 5
             };

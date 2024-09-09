@@ -1,14 +1,16 @@
-﻿namespace GildedRose.Console.TypedItems
+﻿using GildedRose.Console.TypedItems.Extensions;
+
+namespace GildedRose.Console.TypedItems
 {
-    public class DefaultItem : TypedItem
+    public class DefaultItem : ITypedItem
     {
-        public DefaultItem(Item item) : base(item)
+        public DefaultItem(Item item) 
         {
             OriginalItem = item;
         }
         public Item OriginalItem { get; set; }
 
-        public override void UpdateQuality()
+        public void UpdateQuality()
         {
             if (OriginalItem.SellIn == 0)
             {
@@ -16,8 +18,8 @@
             }
             OriginalItem.Quality--;
             OriginalItem.SellIn--;
-            base.UpdateQuality();
+            OriginalItem.BoundQualityLimits();
         }
-        public override string Name { get => "DefaultItem"; }
+        public string Name { get => "DefaultItem"; }
     }
 }

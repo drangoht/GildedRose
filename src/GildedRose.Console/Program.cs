@@ -1,5 +1,6 @@
 ﻿using GildedRose.Console.TypedItems;
 using System.Collections.Generic;
+using System.Linq;
 namespace GildedRose.Console
 {
 
@@ -42,10 +43,10 @@ namespace GildedRose.Console
         }
         public void UpdateQuality()
         {
-            
+            var typedItemFactory = new TypedItemFactory(Items.ToList());
             foreach (var item in Items)
             {
-                var typedItemFactory = new TypedItemFactory(item);
+                
                 typedItemFactory.Create(item).UpdateQuality();
             }
         }

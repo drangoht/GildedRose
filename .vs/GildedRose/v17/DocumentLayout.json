@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|d:\\code\\csharp\\katas\\ddd\\gildedrose\\src\\gildedrose.console\\typeditems\\backstagepassesitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|solutionrelative:src\\gildedrose.console\\typeditems\\backstagepassesitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CBE85B4-3087-45F8-B6CA-11EBECE3304D}|src\\GildedRose.Tests\\GildedRose.Tests.csproj|d:\\code\\csharp\\katas\\ddd\\gildedrose\\src\\gildedrose.tests\\acceptancetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CBE85B4-3087-45F8-B6CA-11EBECE3304D}|src\\GildedRose.Tests\\GildedRose.Tests.csproj|solutionrelative:src\\gildedrose.tests\\acceptancetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|d:\\code\\csharp\\katas\\ddd\\gildedrose\\src\\gildedrose.console\\typeditems\\typeditemfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|solutionrelative:src\\gildedrose.console\\typeditems\\typeditemfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|d:\\code\\csharp\\katas\\ddd\\gildedrose\\src\\gildedrose.console\\typeditems\\itypeditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|solutionrelative:src\\gildedrose.console\\typeditems\\itypeditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|d:\\code\\csharp\\katas\\ddd\\gildedrose\\src\\gildedrose.console\\typeditems\\agedbrieitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|solutionrelative:src\\gildedrose.console\\typeditems\\agedbrieitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|d:\\code\\csharp\\katas\\ddd\\gildedrose\\src\\gildedrose.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|solutionrelative:src\\gildedrose.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|d:\\code\\csharp\\katas\\ddd\\gildedrose\\src\\gildedrose.console\\typeditems\\conjureditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|solutionrelative:src\\gildedrose.console\\typeditems\\conjureditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|d:\\code\\csharp\\katas\\ddd\\gildedrose\\src\\gildedrose.console\\typeditems\\sulfurasitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|solutionrelative:src\\gildedrose.console\\typeditems\\sulfurasitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,32 +39,8 @@
       "RelativeMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|solutionrelative:src\\gildedrose.console\\typeditems\\defaultitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|d:\\code\\csharp\\katas\\ddd\\gildedrose\\src\\gildedrose.console\\typeditems\\typeditemfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|solutionrelative:src\\gildedrose.console\\typeditems\\typeditemfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CBE85B4-3087-45F8-B6CA-11EBECE3304D}|src\\GildedRose.Tests\\GildedRose.Tests.csproj|d:\\code\\csharp\\katas\\ddd\\gildedrose\\src\\gildedrose.tests\\acceptancetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CBE85B4-3087-45F8-B6CA-11EBECE3304D}|src\\GildedRose.Tests\\GildedRose.Tests.csproj|solutionrelative:src\\gildedrose.tests\\acceptancetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|d:\\code\\csharp\\katas\\ddd\\gildedrose\\src\\gildedrose.console\\typeditems\\agedbrieitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|solutionrelative:src\\gildedrose.console\\typeditems\\agedbrieitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|d:\\code\\csharp\\katas\\ddd\\gildedrose\\src\\gildedrose.console\\typeditems\\backstagepassesitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|solutionrelative:src\\gildedrose.console\\typeditems\\backstagepassesitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|d:\\code\\csharp\\katas\\ddd\\gildedrose\\src\\gildedrose.console\\typeditems\\conjureditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|solutionrelative:src\\gildedrose.console\\typeditems\\conjureditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|d:\\code\\csharp\\katas\\ddd\\gildedrose\\src\\gildedrose.console\\typeditems\\typeditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|solutionrelative:src\\gildedrose.console\\typeditems\\typeditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|d:\\code\\csharp\\katas\\ddd\\gildedrose\\src\\gildedrose.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|solutionrelative:src\\gildedrose.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|d:\\code\\csharp\\katas\\ddd\\gildedrose\\src\\gildedrose.console\\typeditems\\extensions\\itemextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|src\\GildedRose.Console\\GildedRose.Console.csproj|solutionrelative:src\\gildedrose.console\\typeditems\\extensions\\itemextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,30 +50,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
+              "Title": "ItemExtensions.cs",
+              "DocumentMoniker": "D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\src\\GildedRose.Console\\TypedItems\\Extensions\\ItemExtensions.cs",
+              "RelativeDocumentMoniker": "src\\GildedRose.Console\\TypedItems\\Extensions\\ItemExtensions.cs",
+              "ToolTip": "D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\src\\GildedRose.Console\\TypedItems\\Extensions\\ItemExtensions.cs",
+              "RelativeToolTip": "src\\GildedRose.Console\\TypedItems\\Extensions\\ItemExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T13:36:59.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AcceptanceTests.cs",
               "DocumentMoniker": "D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\src\\GildedRose.Tests\\AcceptanceTests.cs",
               "RelativeDocumentMoniker": "src\\GildedRose.Tests\\AcceptanceTests.cs",
               "ToolTip": "D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\src\\GildedRose.Tests\\AcceptanceTests.cs",
               "RelativeToolTip": "src\\GildedRose.Tests\\AcceptanceTests.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAD4v3cAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAswJEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-07T09:32:05.075Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "DefaultItem.cs",
               "DocumentMoniker": "D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\src\\GildedRose.Console\\TypedItems\\DefaultItem.cs",
               "RelativeDocumentMoniker": "src\\GildedRose.Console\\TypedItems\\DefaultItem.cs",
               "ToolTip": "D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\src\\GildedRose.Console\\TypedItems\\DefaultItem.cs",
               "RelativeToolTip": "src\\GildedRose.Console\\TypedItems\\DefaultItem.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAiwBQAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwBQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T13:24:47.066Z",
               "EditorCaption": ""
@@ -82,20 +99,20 @@
               "RelativeDocumentMoniker": "src\\GildedRose.Console\\TypedItems\\ConjuredItem.cs",
               "ToolTip": "D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\src\\GildedRose.Console\\TypedItems\\ConjuredItem.cs",
               "RelativeToolTip": "src\\GildedRose.Console\\TypedItems\\ConjuredItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T13:44:17.949Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "BackstagePassesItem.cs",
               "DocumentMoniker": "D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\src\\GildedRose.Console\\TypedItems\\BackstagePassesItem.cs",
               "RelativeDocumentMoniker": "src\\GildedRose.Console\\TypedItems\\BackstagePassesItem.cs",
               "ToolTip": "D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\src\\GildedRose.Console\\TypedItems\\BackstagePassesItem.cs",
               "RelativeToolTip": "src\\GildedRose.Console\\TypedItems\\BackstagePassesItem.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAwwCMAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwA8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T13:13:24.023Z",
               "EditorCaption": ""
@@ -108,20 +125,20 @@
               "RelativeDocumentMoniker": "src\\GildedRose.Console\\TypedItems\\AgedBrieItem.cs",
               "ToolTip": "D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\src\\GildedRose.Console\\TypedItems\\AgedBrieItem.cs",
               "RelativeToolTip": "src\\GildedRose.Console\\TypedItems\\AgedBrieItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T13:13:03.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "SulfurasItem.cs",
               "DocumentMoniker": "D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\src\\GildedRose.Console\\TypedItems\\SulfurasItem.cs",
               "RelativeDocumentMoniker": "src\\GildedRose.Console\\TypedItems\\SulfurasItem.cs",
               "ToolTip": "D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\src\\GildedRose.Console\\TypedItems\\SulfurasItem.cs",
               "RelativeToolTip": "src\\GildedRose.Console\\TypedItems\\SulfurasItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAD4vwIAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T13:12:49.365Z",
               "EditorCaption": ""
@@ -134,33 +151,33 @@
               "RelativeDocumentMoniker": "src\\GildedRose.Console\\TypedItems\\TypedItemFactory.cs",
               "ToolTip": "D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\src\\GildedRose.Console\\TypedItems\\TypedItemFactory.cs",
               "RelativeToolTip": "src\\GildedRose.Console\\TypedItems\\TypedItemFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAwAsAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T13:09:55.296Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TypedItem.cs",
-              "DocumentMoniker": "D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\src\\GildedRose.Console\\TypedItems\\TypedItem.cs",
-              "RelativeDocumentMoniker": "src\\GildedRose.Console\\TypedItems\\TypedItem.cs",
-              "ToolTip": "D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\src\\GildedRose.Console\\TypedItems\\TypedItem.cs",
-              "RelativeToolTip": "src\\GildedRose.Console\\TypedItems\\TypedItem.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAwwBAAAAANAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ITypedItem.cs",
+              "DocumentMoniker": "D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\src\\GildedRose.Console\\TypedItems\\ITypedItem.cs",
+              "RelativeDocumentMoniker": "src\\GildedRose.Console\\TypedItems\\ITypedItem.cs",
+              "ToolTip": "D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\src\\GildedRose.Console\\TypedItems\\ITypedItem.cs",
+              "RelativeToolTip": "src\\GildedRose.Console\\TypedItems\\ITypedItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T13:04:37.926Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\src\\GildedRose.Console\\Program.cs",
               "RelativeDocumentMoniker": "src\\GildedRose.Console\\Program.cs",
               "ToolTip": "D:\\CODE\\CSHARP\\Katas\\DDD\\GildedRose\\src\\GildedRose.Console\\Program.cs",
               "RelativeToolTip": "src\\GildedRose.Console\\Program.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAIA7wDAAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwDEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-27T12:26:11.174Z",
               "EditorCaption": ""
