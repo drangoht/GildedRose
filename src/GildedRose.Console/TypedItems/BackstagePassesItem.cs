@@ -33,5 +33,6 @@
             OriginalItem.SellIn--;
             base.UpdateQuality();
         }
-    }
+        public override string Name { get => "Backstage passes to a TAFKAL80ETC concert";}
+}
 }

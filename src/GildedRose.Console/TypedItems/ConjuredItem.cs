@@ -14,5 +14,6 @@
             OriginalItem.SellIn--;
             base.UpdateQuality();
         }
-    }
+        public override string Name { get => "Conjured"; }
+}
 }

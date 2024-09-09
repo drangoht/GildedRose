@@ -1,23 +1,23 @@
-﻿namespace GildedRose.Console.TypedItems
-{
-    public static class TypedItemFactory
-    {
+﻿using System;
+using System.Collections.Generic;
+using System.Collections.Immutable;
+using System.Linq;
 
-        public static TypedItem Create(Item item)
+namespace GildedRose.Console.TypedItems
+{
+    public class TypedItemFactory
+    {
+        private readonly IReadOnlyDictionary<string, TypedItem> _items ;
+
+        public TypedItemFactory(Item item)
         {
-            switch (item.Name)
-            {
-                case "Sulfuras, Hand of Ragnaros":
-                    return new SulfurasItem(item);
-                case "Aged Brie":
-                    return new AgedBrieItem(item);
-                case "Backstage passes to a TAFKAL80ETC concert":
-                    return new BackstagePassesItem(item);
-                case "Conjured":
-                    return new ConjuredItem(item);
-                default:
-                    return new DefaultItem(item);
-            }
+            var typedItemType = typeof(TypedItem);
+            _items = typedItemType.Assembly.ExportedTypes
+                .Where(x => typedItemType.IsAssignableFrom(x) && !x.IsInterface && !x.IsAbstract)
+                .Select(x => Activator.CreateInstance(x,item))
+                .Cast<TypedItem>()
+                .ToImmutableDictionary(x => x.Name, x => x);
         }
+        public TypedItem Create(Item item) => _items.GetValueOrDefault(item.Name);    
     }
 }

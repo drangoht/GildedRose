@@ -1,6 +1,6 @@
 ﻿namespace GildedRose.Console.TypedItems
 {
-    internal class SulfurasItem : TypedItem
+    public class SulfurasItem : TypedItem
     {
         public SulfurasItem(Item item) : base(item)
         {
@@ -11,5 +11,6 @@
         {
             // Nothing to do here, Sulfuras is unupdatable
         }
+        public override string Name { get => "Sulfuras, Hand of Ragnaros"; }
     }
 }

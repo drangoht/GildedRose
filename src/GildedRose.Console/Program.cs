@@ -42,9 +42,11 @@ namespace GildedRose.Console
         }
         public void UpdateQuality()
         {
+            
             foreach (var item in Items)
             {
-                TypedItemFactory.Create(item).UpdateQuality();
+                var typedItemFactory = new TypedItemFactory(item);
+                typedItemFactory.Create(item).UpdateQuality();
             }
         }
     }

@@ -11,10 +11,13 @@
         public override void UpdateQuality()
         {
             if (OriginalItem.SellIn == 0)
+            {
                 OriginalItem.Quality--;
+            }
             OriginalItem.Quality--;
             OriginalItem.SellIn--;
             base.UpdateQuality();
         }
+        public override string Name { get => "DefaultItem"; }
     }
 }
