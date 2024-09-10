@@ -10,9 +10,7 @@ namespace GildedRose.Console.TypedItems
         private readonly IReadOnlyDictionary<string, ITypedItem> _items;
 
         public TypedItemFactory(List<Item> sourceItems) => _items = MapItemsToITypedItemDictionary(sourceItems);
-        public ITypedItem Create(Item item) => GetItemByName(item.Name) ?? GetDefaultItem();
-
-
+        public ITypedItem Create(Item item) => GetItemByName(item.Name) ;
 
         private IReadOnlyDictionary<string, ITypedItem> MapItemsToITypedItemDictionary(List<Item> sourceItems)
         {
@@ -51,7 +49,6 @@ namespace GildedRose.Console.TypedItems
 
         private bool IsTypeAccordingToDefaultItem(Type type, Item item) => ((ITypedItem)Activator.CreateInstance(type, item)).Name == "DefaultItem";
 
-        private ITypedItem GetDefaultItem() => _items.GetValueOrDefault("DefaultItem");
 
         private ITypedItem GetItemByName(string name) => _items.GetValueOrDefault(name);
     }
