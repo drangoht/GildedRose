@@ -1,15 +1,18 @@
-﻿namespace GildedRose.Console.TypedItems
+﻿using GildedRose.Console.TypedItems.Extensions;
+
+namespace GildedRose.Console.TypedItems
 {
-    public class BackstagePassesItem : TypedItem
+    public class BackstagePassesItem : ITypedItem
     {
-        public BackstagePassesItem(Item item) : base(item)
+        public BackstagePassesItem(Item item)
         {
             OriginalItem = item;
         }
         public Item OriginalItem { get; set; }
 
-        public override void UpdateQuality()
+        public void UpdateQuality()
         {
+
             if (OriginalItem.SellIn <= 0)
             {
                 OriginalItem.Quality = 0;
@@ -19,19 +22,22 @@
             {
                 OriginalItem.Quality += 3;
                 OriginalItem.SellIn--;
-                base.UpdateQuality();
+                OriginalItem.BoundQualityLimits();
                 return;
             }
             if (OriginalItem.SellIn < 11)
             {
                 OriginalItem.Quality += 2;
                 OriginalItem.SellIn--;
-                base.UpdateQuality();
+                OriginalItem.BoundQualityLimits();
                 return;
             }
             OriginalItem.Quality++;
             OriginalItem.SellIn--;
-            base.UpdateQuality();
+            OriginalItem.BoundQualityLimits();
+
         }
+
+        public string Name { get => "Backstage passes to a TAFKAL80ETC concert"; }
     }
 }

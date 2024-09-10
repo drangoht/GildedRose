@@ -1,19 +1,22 @@
-﻿namespace GildedRose.Console.TypedItems
+﻿using GildedRose.Console.TypedItems.Extensions;
+
+namespace GildedRose.Console.TypedItems
 {
-    public class AgedBrieItem : TypedItem
+    public class AgedBrieItem : ITypedItem
     {
-        public AgedBrieItem(Item item) : base(item)
+        public AgedBrieItem(Item item)
         {
             OriginalItem = item;
         }
 
         public Item OriginalItem { get; set; }
 
-        public override void UpdateQuality()
+        public void UpdateQuality()
         {
             OriginalItem.Quality++;
             OriginalItem.SellIn--;
-            base.UpdateQuality();
+            OriginalItem.BoundQualityLimits();
         }
+        public string Name { get => "Aged Brie"; }
     }
 }

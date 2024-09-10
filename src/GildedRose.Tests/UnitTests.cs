@@ -6,8 +6,24 @@ using System.Security.Policy;
 using Microsoft.VisualStudio.TestPlatform.TestHost;
 namespace GildedRose.Tests
 {
-    public class AcceptanceTests
+    public class UnitTests
     {
+        [Fact]
+        /// At the end of each day our system lowers both values for every item
+        public void UpdateQualityShouldDecreaseQualityWithUnkownItem()
+        {
+            Item item = new Item()
+            {
+                Name = "+5 Dexterity Vest",
+                Quality = 10,
+                SellIn = 20
+            };
+
+
+            var app = new Console.Program();
+            var itemUpdated = app.UpddateQuality(item);
+            Assert.Equal(9, itemUpdated.Quality);
+        }
         [Fact]
         /// At the end of each day our system lowers both values for every item
         public void UpdateQualityShouldDecreaseQuality()
@@ -203,7 +219,7 @@ namespace GildedRose.Tests
         {
             Item item = new Item()
             {
-                Name = "Conjured",
+                Name = "Conjured Mana Cake",
                 Quality = 10,
                 SellIn = 5
             };
