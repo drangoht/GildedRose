@@ -4,6 +4,6 @@
     {
         public void UpdateQuality();
 
-        public string Name {  get=> string.Empty; }
+        public string Name {  get; }
     }
 }

@@ -10,6 +10,22 @@ namespace GildedRose.Tests
     {
         [Fact]
         /// At the end of each day our system lowers both values for every item
+        public void UpdateQualityShouldDecreaseQualityWithUnkownItem()
+        {
+            Item item = new Item()
+            {
+                Name = "+5 Dexterity Vest",
+                Quality = 10,
+                SellIn = 20
+            };
+
+
+            var app = new Console.Program();
+            var itemUpdated = app.UpddateQuality(item);
+            Assert.Equal(9, itemUpdated.Quality);
+        }
+        [Fact]
+        /// At the end of each day our system lowers both values for every item
         public void UpdateQualityShouldDecreaseQuality()
         {
             Item item = new Item()
