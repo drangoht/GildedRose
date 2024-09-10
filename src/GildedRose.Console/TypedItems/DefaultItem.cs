@@ -4,7 +4,7 @@ namespace GildedRose.Console.TypedItems
 {
     public class DefaultItem : ITypedItem
     {
-        public DefaultItem(Item item) 
+        public DefaultItem(Item item)
         {
             OriginalItem = item;
         }

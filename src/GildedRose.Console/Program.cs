@@ -46,7 +46,6 @@ namespace GildedRose.Console
             var typedItemFactory = new TypedItemFactory(Items.ToList());
             foreach (var item in Items)
             {
-                
                 typedItemFactory.Create(item).UpdateQuality();
             }
         }

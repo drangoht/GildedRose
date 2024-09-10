@@ -2,8 +2,9 @@
 {
     public interface ITypedItem
     {
+        public Item OriginalItem { get; set; }
         public void UpdateQuality();
 
-        public string Name {  get; }
+        public string Name { get; }
     }
 }

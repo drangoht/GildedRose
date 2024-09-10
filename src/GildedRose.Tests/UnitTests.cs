@@ -6,7 +6,7 @@ using System.Security.Policy;
 using Microsoft.VisualStudio.TestPlatform.TestHost;
 namespace GildedRose.Tests
 {
-    public class AcceptanceTests
+    public class UnitTests
     {
         [Fact]
         /// At the end of each day our system lowers both values for every item

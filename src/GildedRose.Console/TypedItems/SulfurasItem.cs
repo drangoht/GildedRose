@@ -2,7 +2,7 @@
 {
     public class SulfurasItem : ITypedItem
     {
-        public SulfurasItem(Item item) 
+        public SulfurasItem(Item item)
         {
             OriginalItem = item;
         }

@@ -4,7 +4,7 @@ namespace GildedRose.Console.TypedItems
 {
     public class ConjuredItem : ITypedItem
     {
-        public ConjuredItem(Item item) 
+        public ConjuredItem(Item item)
         {
             OriginalItem = item;
         }
@@ -17,5 +17,5 @@ namespace GildedRose.Console.TypedItems
             OriginalItem.BoundQualityLimits();
         }
         public string Name { get => "Conjured Mana Cake"; }
-}
+    }
 }

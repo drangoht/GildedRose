@@ -7,24 +7,44 @@ namespace GildedRose.Console.TypedItems
 {
     public class TypedItemFactory
     {
-        private readonly IReadOnlyDictionary<string, ITypedItem> _items ;
+        private readonly IReadOnlyDictionary<string, ITypedItem> _items;
 
-        public TypedItemFactory(List<Item> sourceItems) =>   _items = MapItemsToITypedItemDictionary(sourceItems);
+        public TypedItemFactory(List<Item> sourceItems) => _items = MapItemsToITypedItemDictionary(sourceItems);
         public ITypedItem Create(Item item) => GetItemByName(item.Name) ?? GetDefaultItem();
 
 
-        private IEnumerable<Type> GetAssignableTypedItemType() =>
-            typeof(ITypedItem).Assembly.ExportedTypes.Where(x => typeof(ITypedItem).IsAssignableFrom(x) && !x.IsInterface && !x.IsAbstract);
-        
-        private IReadOnlyDictionary<string,ITypedItem> MapItemsToITypedItemDictionary(List<Item> sourceItems) =>
-            sourceItems.SelectMany
+
+        private IReadOnlyDictionary<string, ITypedItem> MapItemsToITypedItemDictionary(List<Item> sourceItems)
+        {
+            IEnumerable<ITypedItem> itemsWithMatchingName = GetTypedItemsWithMatchingName(sourceItems);
+
+            var sourcesItemsRemaining = sourceItems.Where(i => !itemsWithMatchingName.Any(c => c.Name == i.Name)).ToList();
+            IEnumerable<ITypedItem> itemsWithDefaultName = GetDefaultTypedItems(sourcesItemsRemaining);
+
+            var items = itemsWithMatchingName.Concat(itemsWithDefaultName);
+
+            var result = items.ToImmutableDictionary(i => i.OriginalItem.Name, i => i);
+            return result;
+
+        }
+
+        private IEnumerable<ITypedItem> GetTypedItemsWithMatchingName(List<Item> items) =>
+            items.SelectMany
                 (
                     i => GetAssignableTypedItemType().
-                         Where(t => IsTypesAccordingToItemNameFound(t, i) || IsTypeAccordingToDefaultItem(t, i)), 
-                        (i, type) => Activator.CreateInstance(type, i)
-                )
-                .Cast<ITypedItem>()
-                .ToImmutableDictionary(i => i.Name, i => i);
+                         Where(t => IsTypesAccordingToItemNameFound(t, i)),
+                        (i, type) => (ITypedItem)Activator.CreateInstance(type, i)
+                );
+
+        private IEnumerable<ITypedItem> GetDefaultTypedItems(List<Item> items) => items.SelectMany
+                (
+                    i => GetAssignableTypedItemType().
+                         Where(t => IsTypeAccordingToDefaultItem(t, i)),
+                        (i, type) => (ITypedItem)Activator.CreateInstance(type, i)
+                );
+
+        private IEnumerable<Type> GetAssignableTypedItemType() =>
+            typeof(ITypedItem).Assembly.ExportedTypes.Where(x => typeof(ITypedItem).IsAssignableFrom(x) && !x.IsInterface && !x.IsAbstract);
 
         private bool IsTypesAccordingToItemNameFound(Type type, Item item) =>
             ((ITypedItem)Activator.CreateInstance(type, item)).Name == item.Name;

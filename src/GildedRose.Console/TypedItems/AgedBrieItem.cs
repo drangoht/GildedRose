@@ -4,7 +4,7 @@ namespace GildedRose.Console.TypedItems
 {
     public class AgedBrieItem : ITypedItem
     {
-        public AgedBrieItem(Item item) 
+        public AgedBrieItem(Item item)
         {
             OriginalItem = item;
         }

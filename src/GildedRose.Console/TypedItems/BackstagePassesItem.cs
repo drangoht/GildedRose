@@ -4,7 +4,7 @@ namespace GildedRose.Console.TypedItems
 {
     public class BackstagePassesItem : ITypedItem
     {
-        public BackstagePassesItem(Item item) 
+        public BackstagePassesItem(Item item)
         {
             OriginalItem = item;
         }
@@ -35,9 +35,9 @@ namespace GildedRose.Console.TypedItems
             OriginalItem.Quality++;
             OriginalItem.SellIn--;
             OriginalItem.BoundQualityLimits();
-            
+
         }
 
         public string Name { get => "Backstage passes to a TAFKAL80ETC concert"; }
-}
+    }
 }
